@@ -1,0 +1,21 @@
+{
+    "name": "light/view-smarty",
+    "description": "View for Light based smarty",
+    "type": "library",
+    "require": {
+        "smarty/smarty": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fengqi",
+            "email": "lyf362345@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "light\\ViewSmarty\\": "src/"
+        }
+    }
+}
