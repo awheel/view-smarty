@@ -1,6 +1,6 @@
 {
-    "name": "light/view-smarty",
-    "description": "View for Light based smarty",
+    "name": "awheel/view-smarty",
+    "description": "View for Awheel based smarty",
     "type": "library",
     "require": {
         "smarty/smarty": "^3.1"
@@ -15,7 +15,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "light\\ViewSmarty\\": "src/"
+            "awheel\\ViewSmarty\\": "src/"
         }
     }
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace light\ViewSmarty;
+namespace awheel\ViewSmarty;
 
 use Smarty;
 
 /**
  * View 层
  *
- * @package light
+ * @package awheel
  */
 class ViewSmarty
 {
@@ -56,7 +56,6 @@ class ViewSmarty
         $this->config = $config;
 
         $smarty = new Smarty();
-        error_reporting(E_ALL);
 
         $smarty->error_reporting = error_reporting();
         $smarty->setTemplateDir($this->config['template_dir']);

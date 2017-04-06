@@ -1,13 +1,13 @@
 <?php
 
-namespace light\ViewSmarty;
+namespace awheel\ViewSmarty;
 
-use light\Component;
+use awheel\Component;
 
 /**
  * View Blade
  *
- * @package light\ViewBlade
+ * @package awheel\ViewBlade
  */
 class ViewComponent implements Component
 {
