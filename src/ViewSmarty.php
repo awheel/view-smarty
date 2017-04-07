@@ -119,4 +119,14 @@ class ViewSmarty
     {
         return $this->config;
     }
+
+    /**
+     * 获取传递给 view 的数据
+     *
+     * @return array
+     */
+    public function getVars()
+    {
+        return $this->viewVars;
+    }
 }
