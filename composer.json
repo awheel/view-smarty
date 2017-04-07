@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">5.2.0",
+        "php": ">=5.2.0",
         "awheel/framework": "^1.5",
         "smarty/smarty": "^3.1"
     },
