@@ -63,10 +63,13 @@ class ViewSmarty
         $smarty->setConfigDir($this->config['config_dir']);
         $smarty->setCacheDir($this->config['cache_dir']);
         $smarty->setCaching($this->config['caching']);
+        $smarty->addPluginsDir($this->config['plugin_dir']);
+        $smarty->left_delimiter = $this->config['left_delimiter'];
+        $smarty->right_delimiter = $this->config['right_delimiter'];
 
         $this->view = $smarty;
 
-        return $this->view;
+        return $this;
     }
 
     /**
@@ -107,7 +110,7 @@ class ViewSmarty
 
         $this->viewVars = array_merge($this->viewVars, [$key => $value]);
 
-        return true;
+        return $this;
     }
 
     /**
